@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Bank</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+    .left{
+        text-align: left;
+        display: inline-block;
+        padding-left: 350px;
+    }
+    .buttondesign{
+        display: inline-block;
+       text-align: left;
+       margin-left: 1077px;
+       margin-top: 10px;
+    }
+    .buttonsubmit{
+        display: inline-block;
+       text-align: left;
+       margin-left: 545px;
+       margin-top: 2px;
+       margin-bottom: 15px;
+    }
+    .from-group{
+       padding-left: 350px;
+       margin-top: 10px;
+    }
+    label{
+        margin-left: 450px;
+    }
+</style>
+</head>
+<body>
+    <div class="container-fluid" style="background-color: aqua; color: #ffffff;">
+        <div class="row">
+          <div class="col-md-2">
+            <a href="">Home</a>
+            <a href="">Logout</a>
+          </div>
+          <div class="col-md-8">
+              <a href="" class="left">ABC Bank</a>
+            
+          </div>
+          <div class="col-md-2 ">
+            Welcome User
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12 ">
+        <button type="button" class="btn btn-primary buttondesign"><a href="registration.html" style="color: white; text-decoration: none;">Create New Customer</a> </button>
+        <label for="customerid">Customer Id:</label>
+    <input type="text" id="customerid" name="customerid" class="from-group"><br><br>
+    <button type="submit" class="btn btn-primary buttonsubmit">Submit</button>
+      </div>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Customer ID</th>
+            <th scope="col">FirstName</th>
+            <th scope="col">LastName</th>
+            <th scope="col">Address</th>
+            <th  scope="col">City</th>
+            <th  scope="col">State</th>
+            <th  scope="col">Country</th>
+            <th  scope="col">Kyc Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td >10011</td>
+            <td>test1</td>
+            <td>test1</td>
+            <td>Noida-62</td>
+            <td>Delhi</td>
+            <td>Delhi</td>
+            <td>India</td>
+            <td>Yello</td>
+            <td><button class="btn btn-primary">Edit</button></td>
+          </tr>
+          <tr>
+            <td >10012</td>
+            <td>test2</td>
+            <td>test2</td>
+            <td>Bihar</td>
+            <td>Patna</td>
+            <td>Delhi</td>
+            <td>Delhi</td>
+           
+            <td>Yello</td>
+            <td><button class="btn btn-primary">Edit</button></td>
+          </tr>
+          <tr>
+            <td >10013</td>
+            <td>test3</td>
+            <td>test2</td>
+            <td>@twitter</td>
+            <td>Bihar</td>
+            <td>Patna</td>
+            <td>Delhi</td>
+           
+           
+            <td>Yello</td>
+            <td><button class="btn btn-primary">Edit</button></td>
+          </tr>
+        </tbody>
+      </table>
+</body>
+</html>
